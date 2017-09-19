@@ -16,6 +16,7 @@ public class Demo {
 		//driver.get("http://google.com");
 		//driver.get("http://gmail.com");
 		//driver.quit();
+		System.out.println("Test1");
 		
 	}
 	@Test
