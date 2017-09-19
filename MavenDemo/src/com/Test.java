@@ -15,6 +15,7 @@ public class Test {
 	
 	public static void main(String[] args){
 		new Test(3.0);
+		System.out.println();
 	}
 
 }
