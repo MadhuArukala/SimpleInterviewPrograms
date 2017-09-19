@@ -17,6 +17,7 @@ public class Demo {
 		//driver.get("http://gmail.com");
 		//driver.quit();
 		System.out.println("Test1");
+		System.out.println("Commit From CMD");
 		
 	}
 	@Test
