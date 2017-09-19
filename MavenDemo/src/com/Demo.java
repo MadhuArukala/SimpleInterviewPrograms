@@ -25,6 +25,7 @@ public class Demo {
 //		WebDriver driver=new FirefoxDriver();
 //		driver.get("http://google.com");
 //		driver.quit();
+		System.out.println("Test1");
 		
 	}
 
