@@ -10,6 +10,7 @@ import java.lang.annotation.Retention;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 public class Demo {
@@ -23,7 +24,7 @@ public class Demo {
 		//driver.get("http://gmail.com");
 		//driver.quit();
 		System.out.println("Test1");
-		System.out.println("Commit From CMD");
+		Reporter.log("Commit From CMD");
 		System.out.println("Commit From CMD");
 		
 	}
