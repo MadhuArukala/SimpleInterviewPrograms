@@ -27,7 +27,7 @@ public class Demo {
 		System.out.println("Commit From CMD");
 		
 	}
-	@Test
+	//@Test
 	public static void fun2() throws IOException{
 		
 //		WebDriver driver=new FirefoxDriver();

@@ -22,7 +22,7 @@
         <version>2.19.1</version>
         <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile>TestNGSuite/testng.xml</suiteXmlFile>
+            <suiteXmlFile>testng.xml</suiteXmlFile>
           </suiteXmlFiles>
           <properties>
           <property>
