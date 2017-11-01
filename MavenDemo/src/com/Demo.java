@@ -25,7 +25,6 @@ public class Demo {
 		//driver.quit();
 		System.out.println("Test1");
 		Reporter.log("Commit From CMD");
-		System.out.println("Commit From CMD");
 		
 	}
 	//@Test
