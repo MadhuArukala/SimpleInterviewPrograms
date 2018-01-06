@@ -25,15 +25,14 @@ public class RecursionEX {
 			
 		
 	}
-	
-	public void isGivenNumPrime(int num){
-		
+	//returns true if given number is prime
+	public boolean isGivenNumPrime(int num){	
 		int t=(int) Math.sqrt(num);
 		System.out.println(t);
 		int count;
 		if( Math.sqrt(num)%1==0){
 			System.out.println("Given num is not a prime number -1");
-			return;
+			return false;
 		}
 		for(int i=2;i<=t;i++){
 			count=0;
@@ -44,10 +43,11 @@ public class RecursionEX {
 			if(count==1)
 				if(num%i==0){
 					System.out.println("Given num is not a prime number -2 ");
-					return;
+					return false;
 				}
 		}
 		System.out.println("Given num is a prime number");
+		return true;
 	}
 	
 	public static void main(String[] args){
