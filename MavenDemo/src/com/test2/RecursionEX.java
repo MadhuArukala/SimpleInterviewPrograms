@@ -2,6 +2,7 @@ package com.test2;
 
 public class RecursionEX {
 	
+	
 	public int factorialOfGivenNum(int num){
 		if(num==1)
 			return 1;
